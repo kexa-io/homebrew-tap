@@ -7,22 +7,22 @@ class Kxn < Formula
   on_macos do
     on_intel do
       url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.29.0/kxn-x86_64-apple-darwin.tar.gz"
-      sha256 "30a365a9a31e2bf757a384574514212d70ce7fab72dbe19e09e042554bc4a7db"
+      sha256 "e7badd2b4efeb259a7adbaad58f5a6724bf62b31842cd8947fb3b8333af4cc40"
     end
     on_arm do
       url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.29.0/kxn-aarch64-apple-darwin.tar.gz"
-      sha256 "27d6fdb9a10ed2d4b8c8c4290542cd2a48977b6f2aac1f1d7f171e347da27ec4"
+      sha256 "b2f9a61ef06a028420c0680fcb3744def7c339bb02b94e9b103176e16beccb08"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.29.0/kxn-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "327265ea3275aef40d0847be1aee104a197ba0fb7eac09fd4ef3b1b3e7da49c6"
+      sha256 "268bd0896b1bd92703fc3a510f56cbe4c3aaf4ce7371b43d9ead64eb59af75fb"
     end
     on_arm do
       url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.29.0/kxn-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "07fba32bb774eff5485cc80be463dfa06be41c6dbf44ebd11a9fabd8506acfe9"
+      sha256 "1b3bb0f6bfd8d8f465f07ac112de58ac648ce278c40daf470d533369d8a625de"
     end
   end
 
