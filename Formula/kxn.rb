@@ -1,28 +1,28 @@
 class Kxn < Formula
   desc "Kexa Next Gen — multi-cloud compliance scanner in Rust"
   homepage "https://github.com/kexa-io/kxn"
-  version "0.52.0"
+  version "0.52.2"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.0/kxn-x86_64-apple-darwin.tar.gz"
-      sha256 "6660638b9c8ff6575ac58945b91f2d46b32b0e5e9aa145dc53c73a1ba3b1386c"
+      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.2/kxn-x86_64-apple-darwin.tar.gz"
+      sha256 "9d93ac4eecc93d4c5ce98906b1973d368246a3834b6dc6d04b39463500944bbe"
     end
     on_arm do
-      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.0/kxn-aarch64-apple-darwin.tar.gz"
-      sha256 "bc23abf8ac39e3080009fd847c20e4511a2641e35fdbfc0f9a57a10cc7ac8219"
+      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.2/kxn-aarch64-apple-darwin.tar.gz"
+      sha256 "20ac8f368fc6323f3448c2ba5027d2b8beb6d46737d93ca125b438664dd083aa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.0/kxn-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "17a3eb7240f385f8aad958cfc08010155c1f29e9ec23c35865dab624aceabbaa"
+      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.2/kxn-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "80cb4998c0d795e762137d8ef72d87539ff03b6d014614bb50cd8f49cf4aedfc"
     end
     on_arm do
-      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.0/kxn-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "161861aed19e7774f4bd4b3fc1ef6237aa0b2eaef9e58367237cebf59f67cb82"
+      url "https://github.com/kexa-io/homebrew-tap/releases/download/v0.52.2/kxn-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "71990ad5e1abef557cbf5dbe81bbde7a48ca2afb720c77a9dd5e9e36eabc720f"
     end
   end
 
